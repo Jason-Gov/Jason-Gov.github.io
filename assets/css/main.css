@@ -1717,3 +1717,6 @@ body {
     line-height: 1.9;
     margin-bottom: 0;
 }
+body.is-article-visible #intro-scroll {
+	display: non;
+}
