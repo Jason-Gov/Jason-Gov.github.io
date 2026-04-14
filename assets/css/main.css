@@ -1740,8 +1740,6 @@ body.is-article-visible #intro-scroll {
 	display: block;
 }
 
-
-<style>
 .volunteer-images {
     display: flex;
     gap: 1.5rem;
@@ -1751,8 +1749,9 @@ body.is-article-visible #intro-scroll {
 }
 
 .volunteer-images .image {
-    flex: 1;
+    flex: 1 1 0;
     margin: 0;
+    width: calc(50% - 0.75rem);
 }
 
 .volunteer-images .image img {
@@ -1767,8 +1766,11 @@ body.is-article-visible #intro-scroll {
         flex-direction: column;
     }
 
+    .volunteer-images .image {
+        width: 100%;
+    }
+
     .volunteer-images .image img {
         height: 250px;
     }
 }
-</style>
