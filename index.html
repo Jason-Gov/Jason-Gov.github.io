@@ -82,6 +82,41 @@
         width: 120px;
     }
 }
+
+	  .contact-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-left {
+    flex: 1;
+    min-width: 260px;
+}
+
+.contact-right {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.contact-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 736px) {
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .contact-right {
+        width: 160px;
+    }
+}
 </style>
 
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -209,6 +244,11 @@ I am currently a third year kinesiology student at the University of Calgary, wh
     <li><a href="https://www.instagram.com/jason_govvv/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
     <li><a href="https://github.com/Jason-Gov" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 </ul>
+					</div>
+				<div class="contact-right">
+					<img src="IMG_0736.jpg" alt="Contact Page Image" />
+				</div>
+			
 							</article>
 
 						<!-- Elements -->
