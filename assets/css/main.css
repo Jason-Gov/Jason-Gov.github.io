@@ -1739,3 +1739,36 @@ body.is-article-visible #intro-scroll {
 	border: 0;
 	display: block;
 }
+
+
+<style>
+.volunteer-images {
+    display: flex;
+    gap: 1.5rem;
+    align-items: stretch;
+    margin: 0 0 2rem 0;
+    flex-wrap: wrap;
+}
+
+.volunteer-images .image {
+    flex: 1;
+    margin: 0;
+}
+
+.volunteer-images .image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+@media screen and (max-width: 736px) {
+    .volunteer-images {
+        flex-direction: column;
+    }
+
+    .volunteer-images .image img {
+        height: 250px;
+    }
+}
+</style>
