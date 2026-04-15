@@ -87,7 +87,7 @@ This project was also a major factor as to why I chose to enroll in this class a
 <html>
   <head>
     <body>
-    Please click  <a href="https://github.com/Jason-Gov?tab=repositories">Here</a> to acess my repositories!
+    Please click  <a href="https://github.com/Jason-Gov/Jason-Gov.github.io">Here</a> to acess my repositories!
   </head>
 </html> 
 
